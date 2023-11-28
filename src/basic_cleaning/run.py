@@ -26,7 +26,8 @@ def go(args):
     logger.info(f"Setting min and max price to {args.min_price} and {args.max_price} to remove outliers")
     min_price = args.min_price
     max_price = args.max_price
-
+    idx = df['price'].between(min_price, max_price)
+    df = df[idx].copy()
     
     logger.info('Convert last_review to datetime')
     df['last_review'] = pd.to_datetime(df['last_review'])
