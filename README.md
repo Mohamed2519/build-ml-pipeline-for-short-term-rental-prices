@@ -1,5 +1,5 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-Link to this very github per Udacity's very recursive instruction loop:
+Link to this  github Repo:
 
 https://github.com/Mohamed2519/build-ml-pipeline-for-short-term-rental-prices
 
